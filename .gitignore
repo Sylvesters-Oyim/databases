@@ -1,0 +1,16 @@
+# database files: rebuilt from schema.sql + seed.sql
+
+*.db 
+*.sqlite3
+backup*.sql
+
+# secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+
+# operating system and editor clutter
+.DS_Store
+.vscode/
